@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  background-image: url(banner.jpg);
+  background-size: cover;
+  color: white;
+}
+nav {
+  background: blue;
+  height: 80px;
+  width: 100%;
+}
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+a.active,
+a:hover {
+  background-color: #1b9bff;
+  transition: 0.5s;
+}
+
+.row {
+  text-align: center;
+  padding: 2rem;
+}
+
+/*
+  .column {
+    float: left;
+    width: 50%%;
+    padding 15%
+    mar
+  }
+  
+   Clear floats after the columns
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+section {
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
