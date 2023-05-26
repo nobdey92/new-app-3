@@ -16,7 +16,7 @@ article {
   flex-direction: column;
   gap: 1rem;
   align-items: center;
-  background-color: hsl(39, 92%, 48%);
+  background-color: hsl(39, 92%, 48%, 0.7);
   color: black;
   border-radius: 5%;
   padding: 10%;
